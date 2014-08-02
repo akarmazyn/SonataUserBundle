@@ -11,13 +11,10 @@
 
 namespace Sonata\UserBundle\Document;
 
-use Sonata\UserBundle\Model\User as AbstractedUser;
-use Sonata\UserBundle\Model\UserInterface;
-
 /**
  * Represents a Base User Document
  */
-class BaseUser extends AbstractedUser implements UserInterface
+class BaseUser extends AbstractUser
 {
     /**
      * Hook on pre-persist operations
